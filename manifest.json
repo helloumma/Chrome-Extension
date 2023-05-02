@@ -1,0 +1,13 @@
+{
+  "name": "Social Follower Blocker",
+  "version": "1.0",
+  "description": "Blocks follower numbers on Instagram and Twitter profiles.",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*", "https://twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
