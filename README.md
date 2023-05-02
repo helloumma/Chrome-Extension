@@ -15,7 +15,7 @@ This Chrome extension hides following and follower numbers on Twitter and Instag
 - Clone the repo
 - Go to [chrome://extensions/](chrome://extensions/)
 - Enable **Developer mode** toggle in upper right hand corner
-- Click on **Load unpacked**
+- Click on **load unpacked**
 - Upload the folder and check via an Instagram/Twitter profile
 
 ### 💭Future Improvements
