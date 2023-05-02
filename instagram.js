@@ -1,4 +1,3 @@
-// Hide follower and following numbers on Instagram
 function hideInstagramNumbers() {
   const followers = document.querySelectorAll("ul.x78zum5.x1q0g3np.xieb3on");
   const followings = document.querySelectorAll("ul.x78zum5.x1q0g3np.xieb3on");
@@ -10,7 +9,6 @@ function hideInstagramNumbers() {
   });
 }
 
-// Listen for DOM changes on Instagram
 function observeInstagramChanges() {
   const targetNode = document.querySelector("body");
   const config = { childList: true, subtree: true };
@@ -25,6 +23,5 @@ function observeInstagramChanges() {
   observer.observe(targetNode, config);
 }
 
-// Call the functions
 hideInstagramNumbers();
 observeInstagramChanges();

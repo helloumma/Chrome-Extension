@@ -1,4 +1,3 @@
-// Hide follower and following numbers on Twitter
 function hideTwitterNumbers() {
   const followers = document.querySelectorAll("div.css-1dbjc4n.r-1mf7evn");
   const followings = document.querySelectorAll("div.css-1dbjc4n.r-1mf7evn");
@@ -10,7 +9,6 @@ function hideTwitterNumbers() {
   });
 }
 
-// Listen for DOM changes on Twitter
 function observeTwitterChanges() {
   const targetNode = document.querySelector("body");
   const config = { childList: true, subtree: true };
@@ -25,6 +23,5 @@ function observeTwitterChanges() {
   observer.observe(targetNode, config);
 }
 
-// Call the functions
 hideTwitterNumbers();
 observeTwitterChanges();
