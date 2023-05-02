@@ -1,6 +1,6 @@
 # Chrome Extension
 
-This Chrome extension hides social media follower numbers on Twitter and Instagram.
+This Chrome extension hides following and follower numbers on Twitter and Instagram.
 
 ### 📋Aims of App
 
