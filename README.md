@@ -1,4 +1,4 @@
-# Chrome Extension
+# 🫣Chrome Extension
 
 This Chrome extension hides following and follower numbers on Twitter and Instagram.
 
