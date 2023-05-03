@@ -5,7 +5,7 @@ This Chrome extension hides following and follower numbers on Twitter and Instag
 ### 📋Aims of App
 
 - User can't see follower and following numbers on any profiles on either Twitter or Instagram
-- Users can't see likes number on Twitter profiles
+- Users can't see likes, tweet, replies, media numbers on Twitter profiles
 
 ### 👩‍💻Technical Details
 
