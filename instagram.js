@@ -1,7 +1,11 @@
 function hideInstagramNumbers() {
-  const postsFollowersFollowing = document.querySelectorAll("span._ac2a");
-  postsFollowersFollowing.forEach((postsFollowersFollowing) => {
-    postsFollowersFollowing.style.display = "none";
+  const followers = document.querySelectorAll("span.x78zum5.x1q0g3np.xieb3on");
+  const followings = document.querySelectorAll("ul.x78zum5.x1q0g3np.xieb3on");
+  followers.forEach((follower) => {
+    follower.style.display = "none";
+  });
+  followings.forEach((following) => {
+    following.style.display = "none";
   });
 }
 
