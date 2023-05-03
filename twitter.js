@@ -6,6 +6,9 @@ function hideTwitterNumbers() {
   const followingsPrivate = document.querySelectorAll(
     "div.css-1dbjc4n.r-13awgt0.r-18u37iz.r-1w6e6rj"
   );
+  const likes = document.querySelectorAll(
+    "div.css-901oao.css-1hf3ou5.r-14j79pv.r-37j5jr.r-n6v787.r-16dba41.r-1cwl3u0.r-bcqeeo.r-qvutc0"
+  );
   followers.forEach((follower) => {
     follower.style.display = "none";
   });
@@ -14,6 +17,9 @@ function hideTwitterNumbers() {
   });
   followingsPrivate.forEach((followingsPrivate) => {
     followingsPrivate.style.display = "none";
+  });
+  likes.forEach((likes) => {
+    likes.style.display = "none";
   });
 }
 
