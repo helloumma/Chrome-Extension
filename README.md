@@ -21,4 +21,3 @@ This Chrome extension hides following and follower numbers on Twitter and Instag
 ### 💭Future Improvements
 
 - Add additional platforms
-- Fix the issue with follower count still showing on Twitter
